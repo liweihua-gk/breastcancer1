@@ -100,7 +100,7 @@ run_button=st.button('Predict')
 
 #st.sidebar.title('菜单侧边栏')
 if run_button:
-    st.write('### Probability of BM:',str(e))
+    st.write('### Probability of bone metastasis:',str(e))
     #st.title('Probability of BM:',str(e))
 # form joblib import  dump, load
 # RF =load(RF.model) 
